@@ -17,8 +17,10 @@ namespace FibonacciSeries
             {
                 int fib = Fibonacci(n);
 
-                Console.WriteLine($"{n} Fibonacci number = {fib}");
+                Console.WriteLine($"{n + 1} Fibonacci number = {fib}");
             }
+
+            Console.ReadLine();
         }
     }
 }
